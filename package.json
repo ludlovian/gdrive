@@ -1,0 +1,26 @@
+{
+  "name": "gdrive",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@lukeed/ms": "^2.0.0",
+    "hash-stream": "github:ludlovian/hash-stream",
+    "logjs": "github:ludlovian/logjs",
+    "mri": "^1.1.6",
+    "pixutil": "github:ludlovian/pixutil",
+    "progress-stream": "github:ludlovian/progress-stream",
+    "sortby": "github:ludlovian/sortby",
+    "speedo": "github:ludlovian/speedo",
+    "throttler": "github:ludlovian/throttler"
+  },
+  "dependencies": {
+    "@googleapis/drive": "^0.3.1",
+    "filescan": "github:ludlovian/filescan"
+  }
+}
